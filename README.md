@@ -166,26 +166,26 @@ Note: Notice the process being used here. Creating a design is important before 
     - question:
         - what would happen if we don't use the timezone to get the current hour?
 
-- Test the code you have written so far
+- Test the code you have written so far:
     - run it in debug mode and `step over` each line
     - note the variables shown in the window on the left side of the screen (VS Code)
     - how many instances did you create? how many are returned in the function? why?
     - why are we running this function now?  why not write all of the code first?
     - which IAM entity is used to make the boto3 function / API call to AWS?
 
-- Implement the `process_instance()` function
+- Implement the `process_instance()` function:
     - implement this function which takes an `instance` and `current_hour` as input and realizes the psedocode below:
         - if instance is running and stop_time is now, stop it
         - if instance is stopped and start_time is now, start it
         - in all other cases, leave the instance as is
     - the function should return a message indicating the acion that was taken
 
-- In the `lambda_handler`, replace the `print` statement with a call to the `process_instance()` function
+- In the `lambda_handler`, replace the `print` statement with a call to the `process_instance()` function.
 
-- Add a `try-except` block in the lambda_handler
+- Add a `try-except` block in the lambda_handler.
     - why would this be needed?
 
-- Test and debug the entire script
+- Test and debug the entire script.
 
 
 
@@ -288,9 +288,9 @@ Note: Notice the process being used here. Creating a design is important before 
 
 ## Part 8 - Test your function
 
-- Check the CloudWatch logs and see that your function is running
+- Check the CloudWatch logs and see that your function is running.
 
-- Modify the tags on your EC2 instances and see that they stop and start as they should
+- Modify the tags on your EC2 instances and see that they stop and start as they should.
 
 
 
@@ -313,7 +313,7 @@ Note: Notice the process being used here. Creating a design is important before 
 
 ## Part 10 - Modify to check for S3 buckets with versioning disabled
 
-- Create a function `process_buckets()` which, first, gets a list of buckets
+- Create a function `process_buckets()` which, first, gets a list of buckets.
 
 - Next iterate over the list and send them to a `process_bucket()` function to check if versioning is enabled
     - If not, enable versioning
