@@ -6,13 +6,13 @@ Purpose of this hands-on training is to provide additional exposure to Boto3 and
 
 At the end of the this hands-on training, students will be able to:
 
-- create a Lambda function and necessary roles and policies
+- create a Lambda function and necessary roles and policies.
 
-- be able to use the boto3 SDK, specifically with the 'EC2' resource
+- be able to use the boto3 SDK, specifically with the 'EC2' resource.
 
-- parse json output from AWS using boto3
+- parse json output from AWS using boto3.
 
-- write a python script from scratch
+- write a python script from scratch.
 
 
 ## Outline
