@@ -1,8 +1,8 @@
 ''' 
 Required imports.
-    -   boto3 for AWS
-    -   JSON for all JSON formats
-    -   datetime to get the current time
+-   boto3 for AWS
+-   JSON for all JSON formats
+-   datetime to get the current time
 '''
 
 import boto3
