@@ -1,11 +1,11 @@
-# import the necessary libraries
-# - need boto3 for AWS API
-# - use JSON to do all JSON processing
-# - need datetime for checking current time
-# - need pytz to set the time zone accurately
+# Import the necessary libraries
+# - Need boto3 for AWS API
+# - Use JSON to do all JSON processing
+# - Need datetime for checking current time
+# - Need pytz to set the time zone accurately
 
 
-# define the tag key/value pair to look for
+# define the tag key/value pair to look for:
 #   Name: SchedulerStartTime
 #   Value: 0-23 (any other value is considered invalid)
 #
